@@ -1,0 +1,183 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html
+{
+    height: 100%;
+    width: 100%;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo
+{
+    width: 100px;
+    height: 100px;
+    margin-right: 70px;
+}
+
+.nav-left, .nav-right
+{
+    display: flex;
+    align-items: center;
+}
+
+.nav-left ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.nav-left ul li a
+{
+    text-decoration: none;
+    color: #2b2b2b;
+    font-weight: 500;
+}
+
+.nav-left ul li a:hover
+{
+    color: goldenrod;
+    transition: .3s;
+}
+
+.nav-right p
+{
+    /* margin-left: 500px; */
+    color: grey;
+}
+
+.nav-right span
+{
+    margin-left: 20px;
+    color: goldenrod;
+}
+
+.nav-right h6
+{
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 15px;
+}
+
+.nav-right h6 i
+{
+    margin-left: 7px;
+}
+
+.nav-right .contact-box .btn
+{
+    font-size: 17px;
+    font-weight: 100;
+    margin-left: 15px;
+    color: goldenrod;
+    border: 1px solid black;
+    padding: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px #cecece;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.nav-right .contact-box .btn:hover
+{
+    transform: scale(1.1);
+}
+
+.bg img
+{
+    transform: translate(140%, 30%);
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    z-index: -1;
+}
+
+/* .container
+{
+    height: 100vh;
+    width: 100%;
+} */
+
+.container .content .btn1
+{
+    /* border: none; */
+    color: #2b2b2b;
+    border-color: gold;
+    border-radius: 5px;
+    padding: 12px;
+    transform: translate(50%, 300%);
+    background: #f5f5f5;
+}
+
+.container .content .btn1 span
+{
+    color: goldenrod;
+}
+
+.container .content h1
+{
+    color: navy;
+    font-size: 70px;
+    margin-top: 7px;
+    margin-left: 84.5px;
+    transform: translate(0%, 200%);
+}
+
+.container .content p
+{
+    color: grey;
+    margin-left: 84.5px;
+    transform: translate(0%, 1050%);
+}
+
+.container .btn2
+{
+    color: white;
+    margin-left: 84.5px;
+    border: 1px solid black;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    letter-spacing: 2px;
+    transform: translate(0%, 515%);
+    background: linear-gradient(to bottom right, gold, goldenrod);
+    cursor: pointer;
+    box-shadow: 0px 5px 15px #cecece;
+}
+
+.container .btn2 span
+{
+    margin-left: 2px;
+    font-size: 11px;
+}
+
+.container .d
+{
+    margin-left: 320px;
+    transform: translate(0%, 242.5%);
+    letter-spacing: 1px;
+    color: #2b2b2b;
+    font-size: larger;
+}
+
+.container .play
+{
+    font-size: 60px;
+    color: #8e8e8e;
+}
